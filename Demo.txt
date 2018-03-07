@@ -1,0 +1,18 @@
+using System;
+
+namespace Domashno1._23._2018
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numberOne = int.Parse(Console.ReadLine());
+            int numberTwo = int.Parse(Console.ReadLine());
+            int numberThree = int.Parse(Console.ReadLine());
+            int numberFour = int.Parse(Console.ReadLine());
+
+            Console.Write($"{numberOne:D4} {numberTwo:D4} {numberThree:D4} {numberFour:D4}");
+
+        }
+    }
+}
